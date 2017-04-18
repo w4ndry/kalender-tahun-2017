@@ -1,0 +1,41 @@
+body{
+	text-align: center;
+}
+li{
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.calender{
+	background: #fff;
+}
+.day-of-week{
+	float: left;
+	width: 14%;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+}
+.date{
+	height: 40px;
+	border-top: 1px solid #000;
+}
+.sat{
+	color: #5cb85c;
+}
+.sun{
+	color: #d9534f;
+	border-right: 1px solid #000;
+}
+.today{
+	background: #5bc0de;
+}
+
+.list-off-day{
+	margin-top: 95px;
+	border: 1px solid #000;
+}
+ul li:hover{
+	background: #aaa;
+	cursor: pointer; 
+}
